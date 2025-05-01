@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0 flex items-center">
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/The-taj-mahal-palace.svg/800px-The-taj-mahal-palace.svg.png"
+              src="https://i.ibb.co/Kz0jCSr/taj-logo-gold.png"
               alt="Taj Hotel Logo"
               className="h-12 w-auto mr-3"
             />

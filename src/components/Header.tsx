@@ -11,7 +11,7 @@ const Header: React.FC = () => {
     <header className="relative py-4 px-6 flex items-center justify-between bg-taj-cream border-b border-taj-gold/20 z-10">
       <div className="flex items-center gap-2">
         <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/The-taj-mahal-palace.svg/800px-The-taj-mahal-palace.svg.png"
+          src="https://i.ibb.co/Kz0jCSr/taj-logo-gold.png"
           alt="Taj Hotel Logo"
           className="h-14 w-auto hidden md:block"
         />
