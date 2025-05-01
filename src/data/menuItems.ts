@@ -70,7 +70,7 @@ export const menuItems: MenuItem[] = [
     id: 'item-7',
     nameEn: 'Rogan Josh',
     nameHi: 'रोगन जोश',
-    description: 'Kashmir's signature mutton curry with aromatic spices',
+    description: 'Kashmir\'s signature mutton curry with aromatic spices',
     price: 550,
     image: 'https://images.unsplash.com/photo-1613292443284-8d10ef9d4b9e?q=80&w=1974&auto=format&fit=crop',
     category: 'main',
