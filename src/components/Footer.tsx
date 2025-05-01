@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Conciergebell } from "lucide-react";
+import { ConciergeBell } from "lucide-react";
 
 const Footer: React.FC = () => {
   return (
@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0 flex items-center">
             <div className="flex items-center justify-center bg-taj-cream p-2 rounded-full h-12 w-12 mr-3">
-              <Conciergebell size={24} className="text-taj-burgundy" />
+              <ConciergeBell size={24} className="text-taj-burgundy" />
             </div>
             <div>
               <p className="text-lg font-serif font-bold">The Taj Flavours</p>
