@@ -1,5 +1,6 @@
 
 import React from "react";
+import { Conciergebell } from "lucide-react";
 
 const Footer: React.FC = () => {
   return (
@@ -7,11 +8,9 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0 flex items-center">
-            <img
-              src="https://i.ibb.co/Kz0jCSr/taj-logo-gold.png"
-              alt="Taj Hotel Logo"
-              className="h-12 w-auto mr-3"
-            />
+            <div className="flex items-center justify-center bg-taj-cream p-2 rounded-full h-12 w-12 mr-3">
+              <Conciergebell size={24} className="text-taj-burgundy" />
+            </div>
             <div>
               <p className="text-lg font-serif font-bold">The Taj Flavours</p>
               <p className="text-sm text-taj-cream/70">Exquisite Dining Experience</p>

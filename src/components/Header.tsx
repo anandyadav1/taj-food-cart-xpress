@@ -1,6 +1,6 @@
 
 import React from "react";
-import { ShoppingCart } from "lucide-react";
+import { ShoppingCart, Conciergebell } from "lucide-react";
 import { useCart } from "@/context/FoodCartContext";
 import { Button } from "@/components/ui/button";
 
@@ -10,11 +10,9 @@ const Header: React.FC = () => {
   return (
     <header className="relative py-4 px-6 flex items-center justify-between bg-taj-cream border-b border-taj-gold/20 z-10">
       <div className="flex items-center gap-2">
-        <img
-          src="https://i.ibb.co/Kz0jCSr/taj-logo-gold.png"
-          alt="Taj Hotel Logo"
-          className="h-14 w-auto hidden md:block"
-        />
+        <div className="hidden md:flex items-center justify-center bg-taj-burgundy p-2 rounded-full h-14 w-14">
+          <Conciergebell size={28} className="text-taj-gold" />
+        </div>
         <div className="flex flex-col">
           <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-taj-burgundy font-serif tracking-wider">
             The Taj <span className="text-taj-gold">Flavours</span>
