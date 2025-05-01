@@ -9,6 +9,7 @@ import OrderConfirmation from "@/components/OrderConfirmation";
 import OrderSuccess from "@/components/OrderSuccess";
 import PaymentModal from "@/components/PaymentModal";
 import Footer from "@/components/Footer";
+import FlowChartImage from "@/components/FlowChartImage";
 import { FoodCartProvider } from "@/context/FoodCartContext";
 
 const Index: React.FC = () => {
@@ -26,6 +27,9 @@ const Index: React.FC = () => {
           <div className="container mx-auto px-4 py-8">
             <OrderHistory />
             <MenuSection />
+            <div className="py-12">
+              <FlowChartImage />
+            </div>
           </div>
         </main>
         <Footer />
