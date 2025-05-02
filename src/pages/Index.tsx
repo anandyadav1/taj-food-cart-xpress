@@ -1,5 +1,8 @@
 
 import React, { useEffect } from "react";
+import { Presentation } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import MenuSection from "@/components/MenuSection";
@@ -29,6 +32,14 @@ const Index: React.FC = () => {
             <MenuSection />
             <div className="py-8">
               <FlowChartImage />
+              <div className="flex justify-center mt-6">
+                <Button asChild className="bg-taj-burgundy hover:bg-taj-burgundy/80 text-white flex items-center gap-2">
+                  <Link to="/presentation">
+                    <Presentation size={18} />
+                    View Full Presentation
+                  </Link>
+                </Button>
+              </div>
             </div>
           </div>
         </main>
