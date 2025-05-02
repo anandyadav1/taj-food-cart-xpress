@@ -27,7 +27,7 @@ const Index: React.FC = () => {
           <div className="container mx-auto px-4 py-8">
             <OrderHistory />
             <MenuSection />
-            <div className="py-12">
+            <div className="py-8">
               <FlowChartImage />
             </div>
           </div>
