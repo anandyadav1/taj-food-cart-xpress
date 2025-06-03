@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 const FlowChartImage: React.FC = () => {
   const [imageError, setImageError] = useState(false);
-  return <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-md">
+  return <div className="flex flex-col items-center justify-center p-4 bg-white shadow-md rounded-sm">
       <h2 className="text-2xl font-bold text-taj-burgundy font-serif mb-4">
         Taj Flavours Website Concept Overview
       </h2>
